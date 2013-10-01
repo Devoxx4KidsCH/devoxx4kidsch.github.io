@@ -3,10 +3,10 @@
 # ----------------------- #
 
 url: http://Devoxx4KidsCH.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
-simple_search: http://google.com/search
+title: Devoxx4KidsCH
+subtitle: 
+author: Devoxx4KidsCH
+simple_search: 
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -69,7 +69,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: Devoxx4KidsCH
 twitter_tweet_button: true
 
 # Google +1
@@ -94,7 +94,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-44489066-1
 
 # Facebook Like
 facebook_like: false
