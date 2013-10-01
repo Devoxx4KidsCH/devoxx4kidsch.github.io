@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: uptime | My Octopress Blog]]></title>
+  <title><![CDATA[Category: uptime | Devoxx4KidsCH]]></title>
   <link href="http://Devoxx4KidsCH.github.io/blog/categories/uptime/atom.xml" rel="self"/>
   <link href="http://Devoxx4KidsCH.github.io/"/>
-  <updated>2013-10-01T11:34:53+02:00</updated>
+  <updated>2013-10-01T12:32:27+02:00</updated>
   <id>http://Devoxx4KidsCH.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Devoxx4KidsCH]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
