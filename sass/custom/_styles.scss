@@ -22,3 +22,22 @@ aside#logo div a {
 #octopress_linkback {
 	background-color: #f1f1f1;	
 }
+
+img.premium {
+	width: 100px;
+	margin: 0px 10px;
+}
+
+img.saison {
+	width: 90px;
+	margin: 0px 10px;
+}
+
+article.post hr {
+	max-width: 500px;
+	margin: 2em 0em;
+	background: #E2E2E2;
+	border-style: solid;
+	height: 1px;
+	border: 0; 
+}
