@@ -16,7 +16,7 @@ et désireux de montrer à leurs enfants qu'il est possible de faire avec un ord
 - - -
 
 # But
-{% pullquote left %}Le But de Devoxx4Kids est de permettre aux enfants d'être plus créatifs avec des ordinateurs et de leur {" enseigner "} la programmation informatique tout {" en s'amusant "}.
+{% pullquote %}Le But de Devoxx4Kids est de permettre aux enfants d'être plus créatifs avec des ordinateurs et de leur {" enseigner "} la programmation informatique tout {" en s'amusant "}.
 {% endpullquote %}
 
 - - -
