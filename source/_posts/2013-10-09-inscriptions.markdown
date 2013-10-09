@@ -14,4 +14,4 @@ L’atelier est réalisé sans la présence des parents afin d’offrir aux enfa
 
 Une participation financière de 10 CHF par enfant sera à régler sur place, merci de votre compréhension !
 
-<div style="width:600px; text-align:left;" ><iframe  src="http://www.eventbrite.fr/tickets-external?eid=8649810817&ref=etckt&v=2" frameborder="0" height="300" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
+<div style="width: 100%; text-align:left;max-width: 600px;" ><iframe  src="http://www.eventbrite.fr/tickets-external?eid=8649810817&ref=etckt&v=2" frameborder="0" height="300" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
