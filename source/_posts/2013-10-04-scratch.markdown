@@ -7,6 +7,8 @@ categories: outils
 published: false
 ---
 
+Présentation de Scratch, l'outil que nous utiliserons avec les plus petits.
+
 <p style="text-align:center">
 {% img /images/scratch.png "Scratch" %}
 </p>

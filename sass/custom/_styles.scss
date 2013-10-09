@@ -23,6 +23,11 @@ aside#logo div a {
 	background-color: #f1f1f1;	
 }
 
+img.base {
+	width: 200px;
+	margin: 0px 20px;
+}
+
 img.premium {
 	width: 100px;
 	margin: 0px 10px;
@@ -40,4 +45,46 @@ article.post hr {
 	border-style: solid;
 	height: 1px;
 	border: 0; 
+}
+
+#genevajug, #blueinfinity {
+  position: fixed;
+  padding: 10px;
+  height: 30px;
+  z-index: 9999;
+}
+
+#genevajug {
+  left: 60px;
+  bottom: 260px;
+}
+
+#blueinfinity {
+  left: 10px;
+  bottom: 100px;
+}
+
+@media only screen and (max-height: 650px) {
+  #genevajug {
+    top: 440px;
+    position: absolute;
+  }
+
+  #blueinfinity {
+    top: 600px;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 630px),
+  (device-height: 1024px) and (device-width: 768px) and (orientation: portrait) {
+
+  aside#genevajug {
+    display: none;
+  }
+
+  aside#blueinfinity {
+    display: none;
+  }
+
 }

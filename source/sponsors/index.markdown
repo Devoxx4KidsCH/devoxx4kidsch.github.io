@@ -7,6 +7,12 @@ sharing: false
 footer: false
 ---
 
+Un grand Merci à [Blue Infinity](http://www.b-i.com/ "Blue Infinity") qui nous accueille dans ses locaux de formation.
+
+{% img base /images/bi_name_web_HautDef.png "Blue Infinity" %}
+{% img base /images/ITTA_logo_transpa_Web_HautDef.png "ITTA" %}
+
+
 Devoxx4Kids Suisse est organisé par l'équipe du [GenevaJUG](http://genevajug.ch "GenevaJUG") et bénéficie donc du soutien de ses sponsors
 
 ## Nos sponsors premiums
