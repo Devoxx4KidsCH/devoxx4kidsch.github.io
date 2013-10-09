@@ -4,7 +4,7 @@
   <title><![CDATA[]]></title>
   <link href="http://Devoxx4KidsCH.github.io/atom.xml" rel="self"/>
   <link href="http://Devoxx4KidsCH.github.io/"/>
-  <updated>2013-10-06T11:23:21+02:00</updated>
+  <updated>2013-10-09T21:42:10+02:00</updated>
   <id>http://Devoxx4KidsCH.github.io/</id>
   <author>
     <name><![CDATA[Devoxx4KidsCH]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Inscriptions]]></title>
+    <link href="http://Devoxx4KidsCH.github.io/blog/2013/10/09/inscriptions/"/>
+    <updated>2013-10-09T16:12:00+02:00</updated>
+    <id>http://Devoxx4KidsCH.github.io/blog/2013/10/09/inscriptions</id>
+    <content type="html"><![CDATA[<p>Les inscriptions seront ouvertes à partir du Vendredi 11 Octobre à 8h00 !</p>
+
+<p>L’atelier se tiendra donc samedi 26 octobre après-midi, de 14H à 18H00, dans les locaux de <a href="http://www.b-i.com">Blue Infinity</a>. Il est destiné aux enfants de 8 à 15 ans. Au programme : une initiation aux outils de programmation dédiés aux enfants comme Scratch, Small Basic, Algoid et un peu de Lego Mindstorm pour les plus grands!</p>
+
+<p>L’atelier est réalisé sans la présence des parents afin d’offrir aux enfants un espace de créativité sans pression.</p>
+
+<p>Une participation financière de 10 CHF par enfant sera à régler sur place, merci de votre compréhension !</p>
+
+<div style="width:600px; text-align:left;" ><iframe  src="http://www.eventbrite.fr/tickets-external?eid=8649810817&ref=etckt&v=2" frameborder="0" height="300" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bienvenue]]></title>
