@@ -17,10 +17,9 @@ Devoxx4Kids Suisse est organisé par l'équipe du [GenevaJUG](http://genevajug.c
 
 ## Nos sponsors premiums
 
-{% img premium /images/logo-altran.png "Altran Switzerland" %}
-{% img premium /images/logo-hortis.png "ortis" %}
-{% img premium /images/logo-genesis.png  "Genesis Group" %}
+{% img premium /images/logo-hortis.png "Hortis" %}
 {% img premium /images/logo-OOsphere.png "OOsphere" %}
+{% img premium /images/logo-qim.png  "Genesis Group" %}
 
 ## Nos sponsors saison
     
