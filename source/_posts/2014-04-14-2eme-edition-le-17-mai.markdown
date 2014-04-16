@@ -6,11 +6,11 @@ comments: true
 categories: 
 ---
 
-Devoxx4Kids, LA conférence réservée aux geeks en herbe revient à Genève le 17 Mai: l'occasion pour les enfants de 8 à 15 ans de découvrir de manière ludique la programmation, la robotique ou encore l'électronique avec des outils adaptés à leur âge : [Scratch](http://scratch.mit.edu/), [Lego Mindstorms](http://www.lego.com/fr-fr/mindstorms/?domainredir=mindstorms.lego.com), [Makey Makey](http://www.makeymakey.com/), [Arduino](http://www.arduino.cc/fr/) et [Minecraft modding](https://minecraft.net/)
+Devoxx4Kids, LA conférence réservée aux geeks en herbe revient à Genève le 17 Mai: l'occasion pour les enfants de 7 à 15 ans de découvrir de manière ludique la programmation, la robotique ou encore l'électronique avec des outils adaptés à leur âge : [Scratch](http://scratch.mit.edu/), [Lego Mindstorms](http://www.lego.com/fr-fr/mindstorms/?domainredir=mindstorms.lego.com), [Makey Makey](http://www.makeymakey.com/), [Arduino](http://www.arduino.cc/fr/) et [Minecraft modding](https://minecraft.net/)
  
 A chaque âge son programme :
 
-- Kids : l'après midi de 14h à 17h30 pour les 8-10 ans,
+- Kids : l'après midi de 14h à 17h30 pour les 7-10 ans,
 - Teens : la journée de 10h30 à 17h30 pour les 10-15 ans.
  
 Les ordinateurs sont fournis, ainsi que les boissons, les goûters et les desserts pour ceux qui déjeuneront avec nous : prévoyez simplement un sandwich pour votre enfant s'il reste toute la journée.
