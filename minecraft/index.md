@@ -224,13 +224,30 @@ Rajouter une valeur pour augmenter la force de projection d'une flêche : `knock
 **Instructions**:
 Dans la class EntitySnowman chercher la méthode attackEntityWithRangedAttack et dans celle-ci remplacer la ligne : 
 `EntitySnowball entitySnowball = new EntitySnowball(this.worldObj, this);` par
-`EntityEgg entitySnowball = new EntityEgg(this.worldObj, this);`
+`EntityEgg entitysnowball = new EntityEgg(this.worldObj, this);`
 
 **Gameplay**
 
 * Construire un Golem des neiges
 * Faire apparaitre un Zombie (avec un oeuf de zombie) non loin du golem pour que celui-ci attaque le zombie.
 * Le golem des neiges tire des oeufs sur le zombie.
+
+### 10. Modifier la vitesse des golems
+
+**But** Faire bouger les golems très vite.
+
+**Instructions**:
+Pour modifier la vitesse d'un Golem de Fer ouvrir la classe EntityIronGolem. Pour modifier la vitesse d'un Golem des neiges ouvrir la classe EntitySnowman. Le principe est le même pour les deux golems.
+Dans la classe que vous avez ouverte, cherchez `SharedMonsterAttributes.movementSpeed`. Augmentez la valuer contenue dans la méthode `setAttribute` pour augmenter la vitesse du golem. (Essayez en passant de 0.25 à 1.25 donne déjà des résultats amusants). 
+
+**Gameplay**
+
+* Construire un Golem des neiges/Golem de fer
+* Faire apparaitre un Zombie (avec un oeuf de zombie) assez loin du golem pour que celui-ci se déplace vers le zombie.
+* Le golem va aller très vite vers le zombie.
+
+**Astuce**
+Cette modification est à combiner avec la modification #3 pour obtenir une patinoire géante produite par un Golem des Neiges !
 
 ## Instructions detaillées
 
