@@ -249,6 +249,36 @@ Dans la classe que vous avez ouverte, cherchez `SharedMonsterAttributes.movement
 **Astuce**
 Cette modification est à combiner avec la modification #3 pour obtenir une patinoire géante produite par un Golem des Neiges !
 
+### 11. Modifier la vie des golems
+
+**But** Rendre les golems quasi invincibles
+
+**Instructions**:
+Pour modifier la vie d'un Golem de Fer ouvrir la classe EntityIronGolem. Pour modifier la vie d'un Golem des neiges ouvrir la classe EntitySnowman. Le principe est le même pour les deux golems.
+Dans la classe que vous avez ouverte, cherchez `SharedMonsterAttributes.maxHealth`. Augmentez la valuer contenue dans la méthode `setAttribute` pour augmenter la vie du golem. (Essayer en mettant la valeur à 1000 le rend presque invulnérable). 
+
+**Gameplay**
+
+* Construire un Golem des neiges/Golem de fer
+* Essayez de le tuer avec la meilleur épée est quasi impossible... 
+
+D'ou la modification suivante :
+
+### 12. Réaliser une épée surpuissante
+
+**But** Pouvoir tuer le golem crée avec la modification #11 :) 
+
+**Instructions**
+Ouvrir la class ItemSword. A la ligne 27 on lit : 
+`this.weaponDamage = 4.0F + par2EnumToolMaterial.getDamageVsEntity();` 
+Remplacer le 4.0 par une valeur plus elevée (aux alentours de 1000). 
+
+**Gameplay**
+* Ouvrir l'inventaire et chercher une épée. Notez que les dégats de l'épée sont très élévés et correspondent a la valeur que l'on a mise.
+* Créez un golem de fer ou des neiges et tuez le avec l'épée. Vous n'aurez besoin que d'un coup ! 
+* Créez des zombies et tuez les en un coup grâce à votre super épée !
+
+
 ## Instructions detaillées
 
 Cette partie ne concerne que ceux qui veulent aller plus loin et construire leur propre modding kit.En général,les mod kits pré-construits (comme expliqué au-dessus) sont suffisants. Créer un mod kits peut être un travail plutôt important et peut nécessiter de bien comprendre comment fonctionne les scripts de builds.
