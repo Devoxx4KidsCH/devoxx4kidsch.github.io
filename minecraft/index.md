@@ -217,7 +217,20 @@ Rajouter une valeur pour augmenter la force de projection d'une flêche : `knock
 * Selectionnez l'arc, faire un click droit pour tirer avec l'arc sur le personnage
 * Celui-ci est projeté très loin !
 
+### 10. Les golems de neige tirent des oeufs !
 
+**But** Losrqu'un golem de neige attaque, il tire des oeufs à la place des boules de neiges.
+
+**Instructions**:
+Dans la class EntitySnowman chercher la méthode attackEntityWithRangedAttack et dans celle-ci remplacer la ligne : 
+`EntitySnowball entitySnowball = new EntitySnowball(this.worldObj, this);` par
+`EntityEgg entitySnowball = new EntityEgg(this.worldObj, this);`
+
+**Gameplay**
+
+* Construire un Golem des neiges
+* Faire apparaitre un Zombie (avec un oeuf de zombie) non loin du golem pour que celui-ci attaque le zombie.
+* Le golem des neiges tire des oeufs sur le zombie.
 
 ## Instructions detaillées
 
