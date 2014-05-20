@@ -202,6 +202,83 @@ Il faut enlever ce code pour être sur que le cochon ne reçoit pas de dégats d
 
 Afin de construire facilement la tour de Terre, vous pouvez volez en tapant `Espace` deux fois de suite très rapidement. Cela vous fera voler. Vous pouvez garder `Espace` enfoncé pour aller vers le haut et `Shift` pour aller vers le bas. Tapez deux fois rapidement sur `Espace` encore une fois pour arreter de voler.
 
+### 9. Fleche avec projection
+
+**But** Lorsque l'on tire sur un ennemi avec une flêche, celui-ci est projeté
+
+**Instructions**:
+Dans la classe EntityArrow, à la ligne 559 on lit :`knockBackStrength = par1;` 
+Rajouter une valeur pour augmenter la force de projection d'une flêche : `knockBackStrength = par1 + 100;`. Plus la valeur rajouter est grande plus le personnage qui recevra la flêche sera projeté loin.
+
+**Gameplay**
+
+* Dans l'inventaire selectionnez l'arc et les flêches.
+* Faire apparaitre un personnage (villageois, Golem, Zombie ou autre...)
+* Selectionnez l'arc, faire un click droit pour tirer avec l'arc sur le personnage
+* Celui-ci est projeté très loin !
+
+### 10. Les golems de neige tirent des oeufs !
+
+**But** Losrqu'un golem de neige attaque, il tire des oeufs à la place des boules de neiges.
+
+**Instructions**:
+Dans la class EntitySnowman chercher la méthode attackEntityWithRangedAttack et dans celle-ci remplacer la ligne : 
+`EntitySnowball entitySnowball = new EntitySnowball(this.worldObj, this);` par
+`EntityEgg entitysnowball = new EntityEgg(this.worldObj, this);`
+
+**Gameplay**
+
+* Construire un Golem des neiges
+* Faire apparaitre un Zombie (avec un oeuf de zombie) non loin du golem pour que celui-ci attaque le zombie.
+* Le golem des neiges tire des oeufs sur le zombie.
+
+### 10. Modifier la vitesse des golems
+
+**But** Faire bouger les golems très vite.
+
+**Instructions**:
+Pour modifier la vitesse d'un Golem de Fer ouvrir la classe EntityIronGolem. Pour modifier la vitesse d'un Golem des neiges ouvrir la classe EntitySnowman. Le principe est le même pour les deux golems.
+Dans la classe que vous avez ouverte, cherchez `SharedMonsterAttributes.movementSpeed`. Augmentez la valuer contenue dans la méthode `setAttribute` pour augmenter la vitesse du golem. (Essayez en passant de 0.25 à 1.25 donne déjà des résultats amusants). 
+
+**Gameplay**
+
+* Construire un Golem des neiges/Golem de fer
+* Faire apparaitre un Zombie (avec un oeuf de zombie) assez loin du golem pour que celui-ci se déplace vers le zombie.
+* Le golem va aller très vite vers le zombie.
+
+**Astuce**
+Cette modification est à combiner avec la modification #3 pour obtenir une patinoire géante produite par un Golem des Neiges !
+
+### 11. Modifier la vie des golems
+
+**But** Rendre les golems quasi invincibles
+
+**Instructions**:
+Pour modifier la vie d'un Golem de Fer ouvrir la classe EntityIronGolem. Pour modifier la vie d'un Golem des neiges ouvrir la classe EntitySnowman. Le principe est le même pour les deux golems.
+Dans la classe que vous avez ouverte, cherchez `SharedMonsterAttributes.maxHealth`. Augmentez la valuer contenue dans la méthode `setAttribute` pour augmenter la vie du golem. (Essayer en mettant la valeur à 1000 le rend presque invulnérable). 
+
+**Gameplay**
+
+* Construire un Golem des neiges/Golem de fer
+* Essayez de le tuer avec la meilleur épée est quasi impossible... 
+
+D'ou la modification suivante :
+
+### 12. Réaliser une épée surpuissante
+
+**But** Pouvoir tuer le golem crée avec la modification #11 :) 
+
+**Instructions**
+Ouvrir la class ItemSword. A la ligne 27 on lit : 
+`this.weaponDamage = 4.0F + par2EnumToolMaterial.getDamageVsEntity();` 
+Remplacer le 4.0 par une valeur plus elevée (aux alentours de 1000). 
+
+**Gameplay**
+* Ouvrir l'inventaire et chercher une épée. Notez que les dégats de l'épée sont très élévés et correspondent a la valeur que l'on a mise.
+* Créez un golem de fer ou des neiges et tuez le avec l'épée. Vous n'aurez besoin que d'un coup ! 
+* Créez des zombies et tuez les en un coup grâce à votre super épée !
+
+
 ## Instructions detaillées
 
 Cette partie ne concerne que ceux qui veulent aller plus loin et construire leur propre modding kit.En général,les mod kits pré-construits (comme expliqué au-dessus) sont suffisants. Créer un mod kits peut être un travail plutôt important et peut nécessiter de bien comprendre comment fonctionne les scripts de builds.
