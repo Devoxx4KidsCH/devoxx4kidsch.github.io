@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Devoxx4Kids Genève 2ème édition, c'est le 17 Mai !"
+title: "Devoxx4Kids Genève 3ème édition, <br>c'est le 13 Décembre !"
 date: 2014-04-14 16:28
 comments: true
 categories: 
 ---
 
-Devoxx4Kids, LA conférence réservée aux geeks en herbe revient à Genève le 13 Décembre: l'occasion pour les enfants de 7 à 15 ans de découvrir de manière ludique la programmation, la robotique ou encore l'électronique avec des outils adaptés à leur âge : [Scratch](http://scratch.mit.edu/), [Thymio](https://aseba.wikidot.com/fr:thymio), [Makey Makey](http://www.makeymakey.com/), [Arduino](http://www.arduino.cc/fr/)et [Minecraft modding](https://minecraft.net/)  
+Devoxx4Kids, LA conférence réservée aux geeks en herbe revient à Genève le 13 Décembre: l'occasion pour les enfants de 7 à 15 ans de découvrir de manière ludique la programmation, la robotique ou encore l'électronique avec des outils adaptés à leur âge : [Scratch](http://scratch.mit.edu/), [Thymio](https://aseba.wikidot.com/fr:thymio), [Makey Makey](http://www.makeymakey.com/), [Arduino](http://www.arduino.cc/fr/) et [Minecraft modding](https://minecraft.net/)  
 
 A chaque âge son programme :
 
