@@ -7,9 +7,7 @@ sharing: true
 footer: true
 ---
 
-Ils parlent de nous:
-
-- [Entreprise Romande](media/PointfortCodeInformatique.pdf), numéro de Novembre 2013
+- [Entreprise Romande](/media/PointfortCodeInformatique.pdf), numéro de Novembre 2013
 - [ICT Journal](http://www.ictjournal.ch/News/2013/10/31/Un-atelier-de-programmation-pour-les-enfants.aspx), le 31 Octobre 2013
 - La tribune de Genève, le 25 Octobre 2013
 
