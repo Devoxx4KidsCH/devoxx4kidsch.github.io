@@ -19,11 +19,11 @@ Devoxx4Kids Suisse est organisé par l'équipe du [GenevaJUG](http://genevajug.c
 
 {% img premium /images/logo-hortis.png "Hortis" %}
 {% img premium /images/logo-OOsphere.png "OOsphere" %}
-{% img premium /images/logo-qim.png  "Genesis Group" %}
+{% img premium /images/logo-qim.png  "Qim Info" %}
+{% img premium /images/logo-serial.png  "Serial" %}
 
 ## Nos sponsors saison
     
 {% img saison /images/logo-sopra.png "Sopra" %}
 {% img saison /images/logo-Ilem.png "Ilem" %}
-{% img saison /images/logo-cross.png "Cross" %}
 {% img saison /images/logo-kalyss.png "Kalyss" %}
