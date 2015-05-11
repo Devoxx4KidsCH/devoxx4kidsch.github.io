@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "4ème édition le samedi 30 Mai"
+title: "4ème édition, le samedi 30 Mai"
 date: 2015-05-11 14:59:59 +0200
 comments: true
 categories: 
 ---
 
-
-
-Devoxx4Kids, LA conférence réservée aux geeks en herbe revient à Genève le 13 Décembre: l'occasion pour les enfants de 7 à 15 ans de découvrir de manière ludique la programmation, la robotique ou encore l'électronique avec des outils adaptés à leur âge : [Scratch](http://scratch.mit.edu/), [Thymio](https://aseba.wikidot.com/fr:thymio), [Arduino](http://www.arduino.cc/fr/), [Minecraft modding](https://minecraft.net/), [Robots NAO](https://www.aldebaran.com/fr/qui-est-nao) et [HTML](http://fr.wikipedia.org/wiki/Hypertext_Markup_Language)
+Devoxx4Kids, LA conférence réservée aux geeks en herbe revient à Genève le samedi 30 Mai: l'occasion pour les enfants de 7 à 15 ans de découvrir de manière ludique la programmation, la robotique ou encore l'électronique avec des outils adaptés à leur âge : [Scratch](http://scratch.mit.edu/), [Thymio](https://aseba.wikidot.com/fr:thymio), [Arduino](http://www.arduino.cc/fr/), [Minecraft modding](https://minecraft.net/), [Robots NAO](https://www.aldebaran.com/fr/qui-est-nao) et [HTML](http://fr.wikipedia.org/wiki/Hypertext_Markup_Language)
 
 A chaque âge son programme :
 
