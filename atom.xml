@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[]]></title>
-  <link href="http://Devoxx4KidsCH.github.io/atom.xml" rel="self"/>
-  <link href="http://Devoxx4KidsCH.github.io/"/>
-  <updated>2015-12-08T14:44:16+01:00</updated>
-  <id>http://Devoxx4KidsCH.github.io/</id>
+  <link href="http://devoxx4kids.ch/atom.xml" rel="self"/>
+  <link href="http://devoxx4kids.ch/"/>
+  <updated>2015-12-08T14:45:44+01:00</updated>
+  <id>http://devoxx4kids.ch/</id>
   <author>
     <name><![CDATA[Devoxx4KidsCH]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[5ème édition, le samedi 12 Décembre]]></title>
-    <link href="http://Devoxx4KidsCH.github.io/blog/2015/11/03/5eme-edition-le-samedi-12-decembre/"/>
+    <link href="http://devoxx4kids.ch/blog/2015/11/03/5eme-edition-le-samedi-12-decembre/"/>
     <updated>2015-11-03T13:59:59+01:00</updated>
-    <id>http://Devoxx4KidsCH.github.io/blog/2015/11/03/5eme-edition-le-samedi-12-decembre</id>
+    <id>http://devoxx4kids.ch/blog/2015/11/03/5eme-edition-le-samedi-12-decembre</id>
     <content type="html"><![CDATA[<p>Devoxx4Kids, LA conférence réservée aux geeks en herbe revient à Genève le samedi 12 Décembre: l&#8217;occasion pour les enfants de 4 à 15 ans de découvrir de manière ludique la programmation, la robotique ou encore l&#8217;électronique avec des outils adaptés à leur âge :</p>
 
 <ul>
@@ -55,9 +55,9 @@ Dans les locaux de Blue-Infinity, Route des jeunes 35 à Carouge</p>
   
   <entry>
     <title type="html"><![CDATA[Bienvenue]]></title>
-    <link href="http://Devoxx4KidsCH.github.io/blog/2013/10/03/bienvenue/"/>
+    <link href="http://devoxx4kids.ch/blog/2013/10/03/bienvenue/"/>
     <updated>2013-10-03T22:00:00+02:00</updated>
-    <id>http://Devoxx4KidsCH.github.io/blog/2013/10/03/bienvenue</id>
+    <id>http://devoxx4kids.ch/blog/2013/10/03/bienvenue</id>
     <content type="html"><![CDATA[<p>L’initiative Devoxx4Kids a été lancée en Belgique en 2012 : celle-ci consiste à organiser, une fois par an, une journée d’ateliers d’initiation à la programmation et de découverte de l’informatique en général pour les enfants. Une sorte de conférence de geeks pour les mini pouces, avec des robots, du code et beaucoup de fun et de bonbons!</p>
 ]]></content>
   </entry>
