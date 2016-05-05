@@ -47,6 +47,10 @@ article.post hr {
 	border: 0; 
 }
 
+article.post ul {
+  max-width: 500px;
+}
+
 #genevajug, #blueinfinity {
   position: fixed;
   padding: 10px;
