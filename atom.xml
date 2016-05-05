@@ -4,7 +4,7 @@
   <title><![CDATA[]]></title>
   <link href="http://devoxx4kids.ch/atom.xml" rel="self"/>
   <link href="http://devoxx4kids.ch/"/>
-  <updated>2015-12-08T14:45:44+01:00</updated>
+  <updated>2016-05-05T08:50:53+02:00</updated>
   <id>http://devoxx4kids.ch/</id>
   <author>
     <name><![CDATA[Devoxx4KidsCH]]></name>
@@ -14,19 +14,19 @@
 
   
   <entry>
-    <title type="html"><![CDATA[5ème édition, le samedi 12 Décembre]]></title>
-    <link href="http://devoxx4kids.ch/blog/2015/11/03/5eme-edition-le-samedi-12-decembre/"/>
-    <updated>2015-11-03T13:59:59+01:00</updated>
-    <id>http://devoxx4kids.ch/blog/2015/11/03/5eme-edition-le-samedi-12-decembre</id>
-    <content type="html"><![CDATA[<p>Devoxx4Kids, LA conférence réservée aux geeks en herbe revient à Genève le samedi 12 Décembre: l&#8217;occasion pour les enfants de 4 à 15 ans de découvrir de manière ludique la programmation, la robotique ou encore l&#8217;électronique avec des outils adaptés à leur âge :</p>
+    <title type="html"><![CDATA[6ème édition, le samedi 21 mai]]></title>
+    <link href="http://devoxx4kids.ch/blog/2016/05/05/6eme-edition-le-samedi-21-mai/"/>
+    <updated>2016-05-05T14:59:59+02:00</updated>
+    <id>http://devoxx4kids.ch/blog/2016/05/05/6eme-edition-le-samedi-21-mai</id>
+    <content type="html"><![CDATA[<p>Devoxx4Kids, LA conférence pour les mini geeks est de retour à Genève le samedi 21 mai: l&#8217;occasion pour les enfants de 4 à 15 ans de découvrir de manière ludique la programmation, la robotique ou encore l&#8217;électronique avec des outils adaptés à leur âge :</p>
 
 <ul>
 <li><a href="http://www.primo.io/cubetto">Cubetto</a></li>
 <li><a href="https://www.thymio.org/fr:thymio">Thymio</a></li>
-<li><a href="http://scratch.mit.edu">Scratch</a> et <a href="http://makeymakey.com/">Makey Makey</a></li>
-<li><a href="https://www.aldebaran.com/fr/qui-est-nao">Robots NAO</a></li>
+<li><a href="http://magiksquare.fr/">The Bugs</a></li>
+<li><a href="https://www.aldebaran.com/fr/cool-robots/nao">Robots NAO</a></li>
 <li><a href="https://www.arduino.cc/">Arduino</a></li>
-<li><a href="https://minecraft.net/">Minecraft</a></li>
+<li>Objets Connectés</li>
 <li><a href="http://www.algoid.net/">Algoid</a></li>
 </ul>
 
@@ -35,20 +35,18 @@
 
 <ul>
 <li>Minis : le matin de 10h30 à 12h00 pour les 4-6 ans avec Cubetto et Thymio</li>
-<li>Kids : l&#8217;après midi de 14h à 17h30 pour les 7-10 ans avec Thymio et Scratch + MakeyMakey</li>
-<li>Teens : la journée de 10h30 à 17h30 pour les 11-15 ans avec NAO, Arduino, Minecraft et Algoid</li>
+<li>Kids : l&#8217;après midi de 14h à 17h30 pour les 7-10 ans avec Thymio et The Bugs</li>
+<li>Teens : la journée de 10h30 à 17h30 pour les 11-15 ans avec NAO, Arduino, Algoid et Objets Connectés</li>
 </ul>
+
+
+<center><div style="width:90%; text-align:left;" ><iframe  src="//eventbrite.fr/tickets-external?eid=25118738824&ref=etckt" frameborder="0" height="201" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div></div></center>
 
 
 <p>Où ?
 Dans les locaux de Blue-Infinity, Route des jeunes 35 à Carouge</p>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.4071050242082!2d6.126970580221174!3d46.18245688131236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b23a2aaaee5%3A0x58745883402ca17!2sblue-infinity!5e0!3m2!1sfr!2sfr!4v1449581932305" width="80%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-
-<p>L&#8217;évènement est complet !</p>
-
-<center><div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.fr/tickets-external?eid=19474696341&ref=etckt" frameborder="0" height="506" width="80%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.fr/r/etckt">Développé par Eventbrite</a></div></div></center>
 
 ]]></content>
   </entry>
