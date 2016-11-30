@@ -1,156 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://devoxx4kids.ch/blog/2016/05/05/6eme-edition-le-samedi-21-mai/</loc>
-    <lastmod>2016-05-05T14:59:59+02:00</lastmod>
-    <priority>0.8</priority>
+    <loc>http://devoxx4kids.ch/blog/2016/11/30/7eme-edition/</loc>
+    <lastmod>2016-11-30T15:02:34+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/blog/2013/10/03/bienvenue/</loc>
     <lastmod>2013-10-03T22:00:00+02:00</lastmod>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/</loc>
-    <lastmod>2016-05-05T08:50:53+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/blog/archives/</loc>
-    <lastmod>2016-05-05T08:50:53+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/past/</loc>
-    <lastmod>2016-05-05T08:50:53+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/flickr/</loc>
-    <lastmod>2016-05-05T08:50:53+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/media/</loc>
-    <lastmod>2016-05-05T08:50:53+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/minecraft/</loc>
-    <lastmod>2016-05-05T08:50:53+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/about/</loc>
-    <lastmod>2016-05-05T08:50:53+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/sponsors/</loc>
-    <lastmod>2016-05-05T08:50:53+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_556988bc025c9_HTML.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_556988c70f0af_html.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_556988ce91539_minecraft colin et paul.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_556988eef210c_page1.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_55698947b0d95_Blue-Infinity.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_556989954396c_williampurin.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569a7cc89fb2_melyann_guilhem.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569a886cf4b4_Malo Ilann.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569a8d10dc1e_sam sacha.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569a927287bc_alexis_mael.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569a9f6af085_Timeo et Ryan.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569aba9aaa66_Raphael et Quentin.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569d54e781c6_Victor.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569d6215edd9_remi_et mateo.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569d63804458_gustav et thibault .html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569d65a2d969_bibi.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/html_files/html4kids_5569d68f3cf14_Page html Patates.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/index.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
   <url>
     <loc>http://devoxx4kids.ch/html/list.html</loc>
-    <lastmod>2015-06-09T12:10:48+02:00</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2016-11-30T15:00:35+01:00</lastmod>
   </url>
 </urlset>
