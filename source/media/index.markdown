@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-- [Florian sur son blog](http://florian-genaudet.fr/#!/blog/devoxx4kids-geneve-dec-2014), Décembre 2014
+- [WeAreOne](https://weareone.ch/blog/devoxx4kids-ch-edition-decembre-2015/), Décembre 2015
 - [Entreprise Romande](/media/PointfortCodeInformatique.pdf), numéro de Novembre 2013
 - [ICT Journal](http://www.ictjournal.ch/News/2013/10/31/Un-atelier-de-programmation-pour-les-enfants.aspx), le 31 Octobre 2013
 - La tribune de Genève, le 25 Octobre 2013
