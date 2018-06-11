@@ -1,71 +1,275 @@
-<html>
-<head>
-  <title>HTML</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Devoxx4Kids - HTML</title>
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<style>
+		body {
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-size: 20px;
+			line-height: 1.42857;
+			color: #333;
+			padding-left: 30px;
+			padding-top: 10px;
+			background-image: linear-gradient(white, #FFEFCC);
+		}
+		ul {
+			list-style-type: circle;
+		}
+		a {
+			color: #337AB7;
+			text-decoration: none;
+		}
+		a:focus, a:hover {
+			color: #23527C;
+			text-decoration: underline;
+		}
+		h1, h6 {
+			text-align: center;
+		}
+		h2 {
+			margin-top: 200px;
+		}
+		h1 {
+			background-image: url(images/devoxx4kids.png);
+			background-repeat: no-repeat;
+			font-size: 200%;
+			width: 1000px;
+			height: 351px;
+			}
+		pre {
+			font-family: "Courier 10 Pitch", Courier, monospace;
+			font-size: 20px;
+			line-height: 140%;
+			white-space: pre;
+			white-space: pre-wrap;
+			border: 1px solid #ccc;
+			overflow: auto;
+			padding: 1em 5em 1em 5em;
+			margin: 1em auto 2em auto;
+			background: #faf8f0;
+		}
+		code {
+			font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+			font-size: 95%;
+			line-height: 140%;
+			white-space: pre;
+			white-space: pre-wrap;
+		}
+		#content code {
+			display: block;
+			padding: 0.5em 1em;
+			border: 1px solid #bebab0;
+		}
+		p code {
+			background: none;
+			color: blue;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>&lt;HTML/&gt;</h1>
 
-<h1>&lt;HTML/&gt;</h1>
-
-<h2>Balises</h2>
-<p>Une balise a un nom (p, html, head, title, h1, a) et s'ecrit entre les signes &lt; et &gt;. Les balises s'écrivent par paire pour agir sur ce qu'elles encadrent.</p>
-<p>exemple : </p>
-<code>&lt;h1&gt;Un peu de texte&lt;/h1&gt;</code>
 
 
-<h2>Création d'une page : </h2>
-<p>Pour créer une page il faut commencer par la balise <code>html</code> : <br/>
-<code>&lt;html&gt;&lt;/html&gt;</code>
-</p>
+		<!--
+		*****************************************
+		** Introduction de la notion de balise **
+		*****************************************
+		-->
+		<h2>Les balises</h2>
+		<p>
+			Une balise a un nom (p, html, head, title, h1, a) et s'écrit entre
+			les signes &lt; et &gt;. Les balises s'écrivent par paire pour agir sur
+			ce qu'elles encadrent.
+		</p>
 
-<p>Ensuite on ajoute un debut de document qui contiendra le titre et un corps de document avec les balises suivantes : </p>
+		<p>exemple :</p>
+		<pre><code>
+&lt;h1&gt;Un petit texte&lt;/h1&gt;
+		</code></pre>
 
-<code>&lt;html&gt;<br/>&lt;head&gt;<br/>&lt;meta charset=&quot;UTF-8&quot;&gt;<br/>&lt;title&gt; Mon titre &lt;/title&gt;<br/>&lt;/head&gt;<br/>&lt;body&gt;<br/><br/>&lt;/body&gt;<br/>&lt;/html&gt;</code>
 
-<h3>A partir de maintenant, pour afficher quelque chose à l'écran, les balises doivent être placés dans le <code>body</code></h3>
 
-<h2>La balise image</h2>
+		<!--
+		***************************************
+		** Introduction de la notion de page **
+		***************************************
+		-->
+		<h2>Création d'une page :</h2>
+		<p>Pour créer une page il faut commencer par la balise <code>html</code>:</p>
+		<pre><code>&lt;html&gt;&lt;/html&gt;</code></pre>
 
-<p>Pour afficher une image il faut utiliser la balise <code>img</code> de la façon suivante : </p>
-<code>&lt;img src=&quot;URL&quot; /&gt;</code>
-<br/>
-Pour changer la taille de l'image :
-<code>&lt;img style=&quot;width:500px;&quot; src=&quot;http://urlDeLimage&quot; /&gt;</code>
+		<p>
+			Ensuite on ajoute un debut de document qui contiendra le titre et un
+			corps de document avec les balises suivantes :
+		</p>
 
-<h2>Les titres</h2>
+		<pre><code>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt; Mon titre &lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
 
-<code>&lt;h1&gt;Gros titre&lt;/h1&gt;</code>
-<br/>
-<code>&lt;h2&gt;Moins gros titre&lt;/h2&gt;</code>
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
 
-<h2>Le texte</h2>
+		<p>
+			Créez un nouveau fichier avec un nom ne contenant pas d'espace et
+			finissant par .html ensuite copier le texte ci-dessus dans ce fichier
+		<p>
 
-<p>Vous pouvez écrire du texte dans une balise <code>&lt;p&gt; ici mon texte &lt;/p&gt;</code></p>
+		<h3>
+			Pour afficher quelque chose à l'écran, à partir de ce code,
+			les nouvelles balises doivent être placées dans le <code>body</code>
+			<br/>
+			(entre la balise ouvrante <code>&lt;body&gt;</code> et la balise
+			fermante <code>&lt;/body&gt;</code>
+		</h3>
 
-<h2>Changer la couleur</h2>
 
-<p>Pour changer la couleur du texte :</p>
-<code>&lt;p style=&quot;color:red;&quot;&gt;&lt;/p&gt;</code>
 
-<p>Changer la couleur de fond de la page</p>
-<code>&lt;body style=&quot;background:green;&quot;&gt;</code>
+		<!--
+		*******************************
+		** Mise en oeuvre des titres **
+		*******************************
+		-->
+		<h2>Les titres</h2>
 
-<p>Fond de page en dégradé</p>
-<code>&lt;body style=&quot;background-image:linear-gradient(white, black);&quot;&gt;</code>
+		<pre><code>
+&lt;h1&gt;Gros titre&lt;/h1&gt;
 
-<h2>Ajouter une favicon</h2>
-<p>mettre dans le head :</p>
-<code>&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;favicon.png&quot; /&gt;</code>
+&lt;h2&gt;Moins gros titre&lt;/h2&gt;
+		</code></pre>
 
-<h2>Les liens</h2>
-<code>&lt;a href=&quot;URL&quot;&gt;Lien&lt;/a&gt;</code>
-<h2>Quelques liens</h2>
-<ul>
-  <li><a href="http://www.icone-gif.com/indexgif.php">http://www.icone-gif.com/indexgif.php</a></li>
-  <li><a href="http://www.toutimages.com/cadregifs.htm">http://www.toutimages.com/cadregifs.htm</a></li>
-  <li><a href="http://www.colorpicker.com/">http://www.colorpicker.com/</a></li>
-  
-</ul>
 
-</body>
+
+		<!--
+		*****************************
+		** Mise en oeuvre du texte **
+		*****************************
+		-->
+		<h2>Le texte</h2>
+
+		<p>Vous pouvez écrire du texte dans une balise <code>p</code></p>
+
+		<pre><code>&lt;p&gt; mon joli texte &lt;/p&gt;</code></pre>
+
+
+
+		<!--
+		*************************************************************
+		** Les liens entre les pages et introduction des attributs **
+		*************************************************************
+		-->
+		<h2>Les liens</h2>
+		<pre><code>&lt;a href=&quot;URL&quot;&gt;Lien&lt;/a&gt;</code></pre>
+
+		<p>
+			Pour préciser où se trouve la page à lire, on utilise l'attribut
+			<code>href</code>
+		</p>
+		<pre><code>
+Le CERN est l'inventeur du HTML, voici le &lt;a href="http://info.cern.ch/"&gt;<a
+href="http://info.cern.ch/" target="_blank">premier site WEB</a>&lt;/a&gt;.
+		</code></pre>
+
+
+
+		<!--
+		****************************************
+		** Mise en oeuvre de l'attribut style **
+		****************************************
+		-->
+		<h2>Changer les couleurs</h2>
+
+		<p>Pour changer la couleur du texte :</p>
+		<pre><code>
+&lt;p style=&quot;color: red;&quot;&gt;Le texte en rouge&lt;/p&gt;
+
+&lt;p style=&quot;color: #D490C6;&quot;&gt;Le texte en mauve&lt;/p&gt;
+		</code></pre>
+
+		<p>Changer la couleur de fond de la page</p>
+		<pre><code>&lt;body style=&quot;background: green;&quot;&gt;</code></pre>
+
+		<p>Fond de page en dégradé</p>
+		<pre><code>
+&lt;body style=&quot;background-image: linear-gradient(white, black);&quot;&gt;
+		</code></pre>
+
+
+
+		<!--
+		*******************************
+		** Mise en oeuvre des images **
+		*******************************
+		-->
+		<h2>La balise image</h2>
+
+		<p>
+			Pour afficher une image il faut utiliser la balise <code>img</code>
+			de la façon suivante :
+		</p>
+		<pre><code>&lt;img src=&quot;URL&quot; /&gt;</code></pre>
+		<p>
+			L'attribut <code>src</code> permet de préciser où se trouve l'image
+		</p>
+
+		<p>
+			Pour changer la taille de l'image, on peut par exemple forcer sa largeur
+			en ajoutant l'attribut <code>style</code>:
+		</p>
+		<pre><code>
+&lt;img style=&quot;width:500px;&quot; src=&quot;http://urlDeLimage&quot; /&gt;
+		</code></pre>
+		<p>Par exemple</p>
+		<pre><code>
+&lt;img style=&quot;width:30px;&quot; src=&quot;images/favicon.png&quot; /&gt; <img style="width:30px;" src="images/favicon.png" alt="Devoxx4Kids play with HTML"/>
+		</code></pre>
+
+
+
+		<!--
+		******************************************
+		** Exemple de balise dans l'entete HTML **
+		******************************************
+		-->
+		<h2>Ajouter une favicon</h2>
+		<p>mettre dans la section <code>head</code> :</p>
+		<pre><code>
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;favicon.png&quot; /&gt;
+		</code></pre>
+
+
+
+		<!--
+		**************
+		** Materiel **
+		**************
+		-->
+		<h2>Quelques liens</h2>
+		<ul>
+			<li><a href="http://www.icone-gif.com/" target="_blank">http://www.icone-gif.com/</a> - Des images</li>
+			<li><a href="http://www.toutimages.com/" target="_blank">http://www.toutimages.com/</a> - Encore des images</li>
+			<li><a href="http://www.colorpicker.com/" target="_blank">http://www.colorpicker.com/</a> - Un outil pour constuire des couleurs</li>
+			<li><a href="https://validator.w3.org/#validate_by_input" target="_blank">https://validator.w3.org/</a> - Vérifier le code HTML</li>
+		</ul>
+
+		<h6>
+		[
+		<a href="http://devoxx4kids.ch/" target="_blank">Devoxx4Kids CH</a>
+		|
+		<a href="http://www.devoxx4kids.org"  target="_blank">Devoxx4Kids</a>
+		]
+		</h6>
+		<h6>
+		[
+		<a href="list.html">Productions des enfants</a>
+		]
+		</h6>
+	</body>
 </html>
-
